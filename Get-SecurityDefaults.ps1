@@ -33,6 +33,7 @@ foreach ($customer in $customers) {
         write-host "Secure Defaults is disabled for $CustomerTenant" -ForegroundColor Yellow
         #$body = '{ "isEnabled": true }'
         #(Invoke-RestMethod -Uri "$baseuri/policies/identitySecurityDefaultsEnforcementPolicy" -Headers $Header -Method patch -Body $body -ContentType "application/json")
+        #blablabla
     }
  
 }
